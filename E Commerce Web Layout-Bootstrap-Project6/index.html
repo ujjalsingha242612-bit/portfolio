@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPYKART</title>
+    <link rel="stylesheet" href="./Asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="./Asset/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Asset/css/owl.theme.default.min.css">
+</head>
+
+<body>
+ 
+    <!-- header-start -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h1>shoppy <span>kart</span></h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                <li><a class="dropdown-item" href="#">Gallery Single</a></li>
+                                <li><a class="dropdown-item" href="#">Team</a></li>
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                        <button type="button" class="btn position-relative">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="position-absolute top-0 start-90 transtlate-middle badge bg-primary">7</span>
+                        </button>
+                        <button type="button" class="btn position-relative">
+                            <i class="fa-solid fa-heart"></i>
+                            <span class="position-absolute top-0 start-90 transtlate-middle badge bg-primary">4</span>
+                        </button>
+                        <button type="button" class="btn position-relative">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+
+
+                    </ul>
+                    <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-2" type="submit">Search</button>
+          </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="clearfix"></div>
+
+    <!-- slider-start -->
+
+    <section class="slider">
+        <div class="row g-0">
+            <div class="col-lg-8">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" autoplay="true" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./Asset/images/banner1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Women's Fashion
+                                    <br> 50% Off
+                                </h5>
+                                <div class="btn-1">
+                                    <a href="#">SHOP NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Asset/images/banner2 (1).jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Men's Fashion
+                                    <br> 60% Off
+                                </h5>
+                                <div class="btn-1">
+                                    <a href="#">SHOP NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Asset/images/banner3 (1).jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Women's Fashion
+                                    <br> 50% Off
+                                </h5>
+                                <div class="btn-1">
+                                    <a href="#">SHOP NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Asset/images/banner4 (1).jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption ">
+                                <h5>Men's Fashion
+                                    <br> 60% Off
+                                </h5>
+                                <div class="btn-1">
+                                    <a href="#">SHOP NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div> -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="right-img">
+                    <h5 class="img-text">Men's Fashion
+                        <br> 60% Off
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+   
+    <!-- us-start -->
+
+    <section class="us">
+        <div class="container">
+            <h2 class="us-text">Shop With <span>Us</span> </h2>
+            <p>Handpicked Favourites just for you</p>
+            <div class="us-img">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="./Asset/images/grid1.jpg" alt="">
+                        <a href="#">
+                            <h2> hand bag</h2>
+                        </a>
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./Asset/images/grid2.jpg" alt="">
+                        <a href="#">
+                            <h2>shoes</h2>
+                        </a>
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./Asset/images/grid3.jpg" alt="">
+                        <a href="#">
+                            <h2>watches</h2>
+                        </a>
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./Asset/images/grid4.jpg" alt="">
+                        <a href="#">
+                            <h2>suits</h2>
+                        </a>
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./Asset/images/grid5.jpg" alt="">
+                        <a href="#">
+                            <h2>Accessories</h2>
+                        </a>
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./Asset/images/grid6.jpg" alt="">
+                        <a href="#">
+                            <h2>Fragrances</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+
+    <!--Discount-start -->
+
+    <section class="Discount">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-box">
+                        <h2>All Branded Men's Suits are <br> Flat <span>30% Discount</span></h2>
+                        <p>Visit our shop to see amazing creations from our designers.</p>
+                        <div class="btn-2">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img-box">
+                        <img src="./Asset/images/1.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="clearflex"></div>
+
+    <!-- bags-start -->
+
+    <section class="bags">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-7">
+                    <div class="bag-img">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bag-text">
+                        <h2>All Branded Men's Suits are <br> Flat <span>30% Discount</span></h2>
+                        <p>Visit our shop to see amazing creations from our designers.</p>
+                        <div class="btn-3">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearflix"></div>
+
+    <!-- cart-start -->
+
+    <section class="cart">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">New Collection</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="cart-imgbox">
+                        <img class="pic1" src="./Asset/images/shop-1.jpg" alt="">
+                        <span
+                            class="position-absolute bg-primary d-flex justify-content-center text-white align-items-center">sale</span>
+                        <img class="pic2" src="./Asset/images/shop-11.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="rating">
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star-half"></i></span>
+                            <div class="details">
+                                <p>Women Maroon Top</p>
+                                <p class="Price">
+                                    <del class="original-price">$50.00</del>
+                                    <span class="sale-price">$35.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cart-imgbox">
+                        <img class="pic1" src="./Asset/images/shop-2.jpg" alt="">
+                        <span
+                            class="position-absolute bg-primary d-flex justify-content-center text-white align-items-center">sale</span>
+                        <img class="pic2" src="./Asset/images/shop-22.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="rating">
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star-half"></i></span>
+                            <div class="details">
+                                <p>Men's Pink Shirt</p>
+                                <p class="Price">
+                                    <del class="original-price">$50.00</del>
+                                    <span class="sale-price">$35.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cart-imgbox">
+                        <img class="pic1" src="./Asset/images/shop-3.jpg" alt="">
+                        <span
+                            class="position-absolute bg-primary d-flex justify-content-center text-white align-items-center">sale</span>
+                        <img class="pic2" src="./Asset/images/shop-33.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="rating">
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star-half"></i></span>
+                            <div class="details">
+                                <p>Dark Blue Top</p>
+                                <p class="Price">
+                                    <del class="original-price">$50.00</del>
+                                    <span class="sale-price">$35.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cart-imgbox">
+                        <img class="pic1" src="./Asset/images/shop-4.jpg" alt="">
+                        <span
+                            class="position-absolute bg-primary d-flex justify-content-center text-white align-items-center">sale</span>
+                        <img class="pic2" src="./Asset/images/shop-44.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="rating">
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star-half"></i></span>
+                            <div class="details">
+                                <p>Women Tunic</p>
+                                <p class="Price">
+                                    <del class="original-price">$50.00</del>
+                                    <span class="sale-price">$35.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cart-imgbox">
+                        <img class="pic1" src="./Asset/images/shop-5.jpg" alt="">
+                        <span
+                            class="position-absolute bg-primary d-flex justify-content-center text-white align-items-center">sale</span>
+                        <img class="pic2" src="./Asset/images/shop-55.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="rating">
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star-half"></i></span>
+                            <div class="details">
+                                <p>Yellow T-Shirt</p>
+                                <p class="Price">
+                                    <del class="original-price">$50.00</del>
+                                    <span class="sale-price">$35.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cart-imgbox">
+                        <img class="pic1" src="./Asset/images/shop-66 (1).jpg" alt="">
+                        <span
+                            class="position-absolute bg-primary d-flex justify-content-center text-white align-items-center">sale</span>
+                        <img class="pic2" src="./Asset/images/shop-66.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="rating">
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star-half"></i></span>
+                            <div class="details">
+                                <p>Straight Kurta</p>
+                                <p class="Price">
+                                    <del class="original-price">$50.00</del>
+                                    <span class="sale-price">$35.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cart-imgbox">
+                        <img class="pic1" src="./Asset/images/shop-7.jpg" alt="">
+                        <span
+                            class="position-absolute bg-primary d-flex justify-content-center text-white align-items-center">sale</span>
+                        <img class="pic2" src="./Asset/images/shop-77.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="rating">
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star-half"></i></span>
+                            <div class="details">
+                                <p>White T-Shirt</p>
+                                <p class="Price">
+                                    <del class="original-price">$50.00</del>
+                                    <span class="sale-price">$35.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cart-imgbox">
+                        <img class="pic1" src="./Asset/images/shop-8.jpg" alt="">
+                        <span
+                            class="position-absolute bg-primary d-flex justify-content-center text-white align-items-center">sale</span>
+                        <img class="pic2" src="./Asset/images/shop-88.jpg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="rating">
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star"></i></span>
+                            <span class="text-primery"><i class="fa-solid fa-star-half"></i></span>
+                            <div class="details">
+                                <p>Blue Sweater</p>
+                                <p class="Price">
+                                    <del class="original-price">$50.00</del>
+                                    <span class="sale-price">$35.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+
+    <!-- change-start -->
+
+    <section class="change">
+        <div class="change-bg">
+            <div class="container">
+                <div class="change-text">
+                    <h2>Tons of Products & Options to <br> <span>change</span> </h2>
+                    <p>Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing <br>elitFuga, suscipit
+                        totam
+                        animi consequatur saepe blanditiis. <br>Lorem ipsum dolor sit amet,Ea consequuntur illum facere
+                        aperiam sequi optio consectetur <br> adipisicing elit..</p>
+                    <div class="btn-4">
+                        <a href="#">SHOP NOW</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+
+    <!-- posts-start -->
+
+    <section class="posts">
+        <div class="heading-text">
+            <h2>Latest Blog <span>Posts</span></h2>
+            <p>Handpicked Favourites just for you</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="blog-img">
+                        <a href="#"><img src="./Asset/images/bg1.jpg" alt=""></a>
+                    </div>
+                    <div class="blog-info-list">
+                        <h2><a href="#"> By admin</a> <span>Aug 10, 2020</span></h2>
+                        <h4><a href="#">Here to bring your life <br> style to the next level.</a></h4>
+
+                    </div>
+
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="blog-img">
+                        <a href="#"><img src="./Asset/images/bg2.jpg" alt=""></a>
+                    </div>
+                    <div class="blog-info-list">
+                        <h2><a href="#"> By admin</a> <span>Aug 10, 2020</span></h2>
+                        <h4><a href="#">Here to bring your life <br> style to the next level.</a></h4>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="blog-img">
+                        <a href="#"><img src="./Asset/images/bg3 (1).jpg" alt=""></a>
+                    </div>
+                    <div class="blog-info-list">
+                        <h2><a href="#"> By admin</a> <span>Aug 10, 2020</span></h2>
+                        <h4><a href="#">Here to bring your life <br> style to the next level.</a></h4>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="blog-img">
+                        <a href="#"><img src="./Asset/images/bg4.jpg" alt=""></a>
+                    </div>
+                    <div class="blog-info-list">
+                        <h2><a href="#"> By admin</a> <span>Aug 10, 2020</span></h2>
+                        <h4><a href="#">Here to bring your life <br> style to the next level.</a></h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+
+    <!-- testimonial-start -->
+
+    <section class="testimonial">
+        <div class="testimonial-header">
+            <h2>what our <span>clients</span> say</h2>
+        </div>
+        <div class="container">
+            <div class="row all-align-center">
+                <div class="col-lg-6">
+                    <div class="testimonial-img">
+                        <div class="testimonial-imgbox">
+                            <div class="testimonial-imgcircle"></div>
+                            <div class="testimonial-imgbox-inner">
+                                <img src="./Asset/images/ts1 (1).png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial-slider">
+                        <div id="myCarousel" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item testimonial-item active" data-color="#0000FF"
+                                    data-img="./Asset/images/ts1 (1).png">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam quisquam
+                                        tenetur dicta id reprehenderit! Facere nobis quas quibusdam dolorem iure iusto
+                                        minima voluptatibus, a temporibus vitae incidunt magni. Iure.</p>
+
+                                    <h3>john doe</h3>
+                                    <div class="reting"><i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="carousel-item testimonial-item " data-color="#ef233c"
+                                    data-img="./Asset/images/ts2.png">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam quisquam
+                                        tenetur dicta id reprehenderit! Facere nobis quas quibusdam dolorem iure iusto
+                                        minima voluptatibus, a temporibus vitae incidunt magni. Iure.</p>
+
+                                    <h3>amelia rose</h3>
+                                    <div class="reting"><i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item testimonial-item " data-color="#DFFF00"
+                                    data-img="./Asset/images/ts3.png">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam quisquam
+                                        tenetur dicta id reprehenderit! Facere nobis quas quibusdam dolorem iure iusto
+                                        minima voluptatibus, a temporibus vitae incidunt magni. Iure.</p>
+
+                                    <h3>oliver carter</h3>
+                                    <div class="reting"><i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="clearfix"></div>
+
+    <section class="email">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6">
+                    <div class="email-text">
+                        <h2>Join us for FREE to get instant <span>email updates!</span></h2>
+                        <p>Subscribe and get notified at first on the latest update and offers!</p>
+                        <div class="form2">
+                            <form action="" method="post" class="form1">
+                                <input type="text" class="form-control" placeholder="Enter Your Email...">
+                                <div class="alpha">
+                                    <button class="btn5" type="submit">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="email-bg"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+
+    <!-- footer-start -->
+
+    <section class="footer">
+        <div class="footer-bg">
+            <div class="footer-heading">
+                <h2>Women's Day Special Offer All Branded Sandals <br> are Flat 50% Discount</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer-logo">
+                            <h1>SHOPPY <span>KART</span> </h1>
+                            <p>Lorem ipsum dolor sit amet,Ea consequuntur illum <br> facere aperiam sequi optio
+                                consectetur.Vivamus a <br>ligula
+                                quam. Ut blandit eu leo non suscipit.</p>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="links">
+                            <h2>useful links</h2>
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Pages</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="links1">
+                            <a href="#">Careers</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms and Conditions</a>
+                            <a href="#">Support</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-about">
+                            <h2>Our Store</h2>
+                            <p>49436 Broaddus Honey Court Avenue, <br> Madisonville KY 95020, United States of <br> America</p>
+                            <h3>We accept:</h3>
+                            <div class="About-icon">
+                               <a href="#"> <i class="fa-brands fa-cc-visa"></i></a>
+                               <a href="#"> <i class="fa-brands fa-cc-mastercard"></i></a>
+                               <a href="#"> <i class="fa-brands fa-cc-paypal"></i></a>
+                               <a href="#"> <i class="fa-brands fa-cc-amex"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./Asset/js/bootstrap.bundle.min.js"></script>
+    <script src="./Asset/js/jquery.js"></script>
+    <script src="./Asset/js/owl.carousel.min.js"></script>
+    <script src="./Asset/js/main.js"></script>
+
+</body>
+
+</html>
